@@ -1,0 +1,77 @@
+.logo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: $brand6 !important;
+
+  &.large {
+    font-size: 72px;
+  }
+
+  span {
+    color: $brand7 !important;
+  }
+}
+
+.navbar-static-top {
+  background-color: $brand1;
+  border-radius: 0;
+
+  a.navbar-brand {
+    color: $brand3;
+  }
+
+  a.nav-link {
+    color: $brand4;
+
+    img {
+      float: right;
+      position: relative;
+      left: 10px;
+      top: -2px;
+    }
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  color: $brand3;
+  border-radius: 0;
+  padding: 2rem 2rem;
+}
+
+p.tagline {
+  font-size: 1.5rem;
+  color: $brand4;
+}
+
+.video {
+  img {
+    max-width: 100%;
+  }
+
+  .icon-play {
+    position: relative;
+    left: -6px;
+    top: 1px;
+  }
+}
+
+.publicHomeUpcoming {
+  .suggestion {
+    padding-left: 35px;
+    padding-top: 14px;
+
+    .label {
+      position: absolute;
+      left: 7px;
+    }
+  }
+
+
+  .vote {
+    color: $gray-lighter;
+
+    &:hover, &.active {
+      color: $gray-dark;
+    }
+  }
+}
